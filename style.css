@@ -1,0 +1,76 @@
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto" , sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    padding-top: 2.5rem;
+    background-color:#0049B7;
+}
+
+#add {
+    position: fixed;
+    top: 1.8rem;
+    right: 1rem;
+    border: none;
+    background-color:rgb(14, 210, 145);
+    padding: 0.4rem 0.8rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+    margin: 20px 25px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.card-top {
+    border-radius: 3px 3px 0 0;
+    padding: 4px 0;
+    background-color: rgb(14, 210, 145);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-top button {
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0 0.7rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+    height: 300px;
+    font-family: inherit;
+    border: none;
+    padding: 18px;
+}
+
+.main {
+    padding: 18px;
+}
+
+.hidden {
+    display: none;
+}
